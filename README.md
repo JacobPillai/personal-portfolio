@@ -12,6 +12,50 @@
 
 **Full description:** This repository contains my personal portfolio website showcasing selected projects, technical skills, and contact information. It is a responsive, mobile‑first site using Bootstrap 5, custom CSS, and JavaScript for interactivity. The contact form is integrated via EmailJS to enable serverless messaging. The site is intended for recruiters and collaborators to quickly view my work and reach out.
 
+## 🔄 Recent Updates
+
+### Multi‑format Downloadable Resume
+- **What**: Added downloadable resume in multiple formats and a dedicated resume page with print support.
+- **Why**: Gives recruiters an offline, ATS‑friendly copy; supports formal applications that require PDF/DOCX; TXT ensures maximum compatibility with parsers.
+- **Files** (repo paths):
+  - `assets/cv/Jacob_Pillai_Resume.pdf`
+  - `assets/cv/Jacob_Pillai_Resume.docx`
+  - `assets/cv/Jacob_Pillai_CV.txt`
+- **Resume Page**: `pages/resume.html`
+  - Upgraded with Bootstrap layout and a top button group: PDF / DOCX / TXT / Print.
+  - Bottom helper bar repeats the download options and shows a short format tip.
+  - Print button uses `window.print()`; page has simple print CSS for clean export.
+- **Homepage integrations**: `index.html`
+  - Navbar: added `Resume` link → `pages/resume.html`.
+  - Hero: visible “Download CV” CTA → `pages/resume.html`.
+  - Footer: direct quick‑download buttons for PDF, DOCX, and TXT, plus a “View Resume” link.
+- **Accessibility**: Buttons/links include clear labels and use semantic anchors with the `download` attribute.
+
+### How to update your resume files later
+1. Replace the files in `assets/cv/` with the same filenames (recommended):
+   - `Jacob_Pillai_Resume.pdf`
+   - `Jacob_Pillai_Resume.docx`
+   - `Jacob_Pillai_CV.txt`
+2. If you change filenames, update both:
+   - `pages/resume.html` top and bottom button groups
+   - `index.html` footer quick‑download buttons
+3. Commit and push:
+   ```bash
+   git add assets/cv/* pages/resume.html index.html
+   git commit -m "docs(resume): refresh resume files and links"
+   git push
+   ```
+
+### Local testing checklist
+- Open `pages/resume.html` and click PDF/DOCX/TXT; ensure downloads start.
+- From the homepage footer, try the direct PDF/DOCX/TXT buttons.
+- Use Ctrl+F5 if the browser caches old files.
+
+### Notes for contributors
+- Keep the TXT resume ATS‑friendly (plain text, no special formatting).
+- Prefer single‑column layout and standard fonts when exporting PDF from DOCX.
+- Avoid committing any secrets; only public resume assets live under `assets/cv/`.
+
 ## 🚀 Push this portfolio to GitHub
 
 From `C:\Users\jacob\Documents\Portfolio_site`:

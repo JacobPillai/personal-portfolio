@@ -2,9 +2,9 @@
 
 ![Portfolio Banner](https://via.placeholder.com/800x200/101820/FEE715?text=Frontend+Developer+Portfolio)
 
-**Live Demo:** *[Coming Soon - Deployment in Progress]*  
+**Live Demo:** *[https://jacobpillai.github.io/personal-portfolio/]*  
 **Timeline:** 1 week (University Assignment)  
-**Current Status:** 60% Complete - Foundation Ready, Building Content Sections
+**Current Status:** 0% planning stage, 60% Complete - Foundation Ready, Building Content Sections for documentation
 
 ## 📝 GitHub Repository Description (copy‑paste)
 
@@ -25,7 +25,7 @@ git commit -m "feat: initial portfolio"
 git push -u origin main
 ```
 
-If `origin` already exists:
+If it says that the `origin` link already exists:
 
 ```bash
 git remote set-url origin https://github.com/JacobPillai/personal-portfolio.git

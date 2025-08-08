@@ -1,0 +1,49 @@
+Jacob Jayen Pillai
+Frontend Developer (Student)
+Email: jacobjayenpillai@gmail.com
+LinkedIn: https://www.linkedin.com/in/jacob-jayen-pillai-130a6233b/
+GitHub: https://github.com/JacobPillai
+YouTube: https://www.youtube.com/@jacobpillai
+
+SUMMARY
+IT student specializing in frontend development with a strong foundation in HTML5, CSS3, JavaScript (ES6+), and Bootstrap. Experienced building responsive, accessible interfaces and integrating EmailJS for serverless contact forms. Passionate about clean UI, usability, and continuous learning.
+
+SKILLS
+- Languages/Frameworks: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5
+- Tools: Git & GitHub, VS Code, EmailJS
+- Practices: Responsive design, accessibility (ARIA), SEO basics
+
+PROJECTS
+1) Car Showcase Website
+   - Live: https://car-site-git-main-jacobjayenpillai-gmailcoms-projects.vercel.app/
+   - Repo: https://github.com/JacobPillai/car_site
+   - Notes: Responsive gallery, animations, and mobile-first UX.
+
+2) Note Taking & Task Manager
+   - Live: https://jacobpillai.github.io/note-taking-task-management/
+   - Repo: https://github.com/JacobPillai/note-taking-task-management
+   - Notes: Search, local storage, Bootstrap UI.
+
+3) Audio Editing Tool (YouTube Featured)
+   - Channel: https://www.youtube.com/@jacobpillai
+   - Notes: Web Audio API exploration and tutorial content.
+
+EXPERIENCE
+IT Support Intern — Universal Robina Corporation (Jan 2025 – Apr 2025)
+- Assisted with hardware/software setup and troubleshooting
+- Provided user support and maintained IT systems
+- Contributed to implementation of security measures
+
+EDUCATION
+INTI International College Subang
+- Diploma in Information Technology (Aug 2022 – Aug 2025)
+- Bachelor of Science in Information Technology (Coursework 2025–2027)
+
+HIGHLIGHTS
+- 5+ projects, 30+ YouTube subscribers
+- Focused on accessibility, performance, and clean UI
+
+CONTACT
+Email preferred: jacobjayenpillai@gmail.com
+Portfolio: https://jacobpillai.github.io/personal-portfolio/
+
